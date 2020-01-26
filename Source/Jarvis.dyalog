@@ -98,7 +98,7 @@
               Log'Error loading configuration: ',msg
           :EndIf
       :Else
-          (Port CodeLocation Paradigm)←2↑args,(≢,args)↓Port CodeLocation Paradigm
+          (Port CodeLocation Paradigm)←3↑args,(≢,args)↓Port CodeLocation Paradigm [
       :EndIf
     ∇
 
